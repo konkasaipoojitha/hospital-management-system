@@ -1,0 +1,174 @@
+.card{
+    background-color: white;
+    padding:30px;
+    width:200px;
+    margin: 20px auto;
+    border-radius: 30px;
+    font-size: 20px;
+    box-shadow: 0 0 10px gray;
+    text-align: center;
+}
+.HomePage
+{
+    margin-top:100px;
+}
+nav{
+    background-color:blue;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+}
+button{
+    border:none;
+    border-radius:10px;
+    background:white;
+    color:#0b6efd;
+    margin:20px;
+}
+.loginpage{
+    width:800px;
+    margin:80px auto;
+    padding:50px;
+    text-align:center;
+    box-shadow: 0 0 10px gray;
+}
+.butt
+{
+    border-radius: 30px;
+    padding:10px 30px;
+    background-color: #0b6efd;
+    color:white;
+}
+input{
+    padding:10px;
+    width:250px;
+    border-radius:5px;
+    border:1px solid gray;
+    margin:20px;
+}
+.loginpage h1{
+    color:#0b6efd;
+    font-size:40px;
+    font-family:Arial;
+    text-align:center;
+}
+.HomePage{
+    display:none;
+}
+.patientform
+{
+text-align:center;
+}
+.bmi
+{
+    box-shadow: 0 0 10px gray;
+    border-radius:13px;
+    padding:15px;
+    margin:10px auto;
+    background-color: #0b6efd;
+    color: white;
+}
+.recom
+{
+    box-shadow: 0 0 10px gray;
+    border-radius:12px;
+    padding:15px;
+    margin:10px auto;
+    background-color: #0b6efd;
+    color: white;
+    margin-top:20px;
+}
+.selection
+{
+    padding:10px 100px;
+    margin:20px auto;
+}
+.patientform{
+ display:none; 
+}
+.navigation2
+{
+    text-align:center;
+}
+.backk
+{
+    background-color: #0b6efd;
+    padding:10px;
+    color:white;
+}
+.butt1
+{
+    background-color: #0b6efd;
+    padding:10px;
+    color:white;
+}
+.recompage
+{
+    padding-top:10px;
+}
+.recompage
+{
+display:none;
+}
+.recompage{
+    text-align: center;
+}
+.hrec
+{
+    padding:10px;
+    margin:20px 100px;
+    background-color: #0b6efd;
+    border-radius: 10px;
+}
+.medicine,
+.food,
+.dosage,
+.howtouse,
+.sideeffects{
+    margin:10px 100px;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+    display: none;
+}
+.download,
+.alarm
+{
+    background-color: #0b6efd;
+    padding:10px;
+    margin:10px;
+    color: white;
+}
+.doctorconsult
+{
+    display: none;
+}
+.doctor1,.doctor2
+{
+    margin-top:100px;
+    box-shadow:0 0 10px gray;
+    padding:30px;
+    margin-right:900px;
+    margin-left:300px;
+}
+.doc
+{
+    text-align: center;
+}
+.book
+{
+    padding:10px;
+    margin-left:50px;
+    color:white;
+    background-color: #0b6efd;
+}
+.specialist
+{
+    text-align: center;
+}
+.doctorconsult
+{
+    display: none;
+    float:left;
+}

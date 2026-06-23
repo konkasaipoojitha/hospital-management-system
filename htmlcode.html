@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            smart awareness system.
+        </title>
+        <link rel="stylesheet" href="selfp.css">
+    </head>
+    <body>
+        <nav>
+            <h1>smart medicine awareness system.</h1>
+            <button onclick="showHome()">Home</button>
+        </nav>
+    <div class="loginpage">
+        <h1 class="title">Login</h1>
+        <br>
+        <input type="text" placeholder="username">
+        <br>
+        <input type="password" placeholder="password">
+        <br>
+        <button class="butt" onclick="showHome()">Submit</button><br>
+        <button class="butt1" onclick="showHome()">Next➡️</button>
+    </div>
+    <div class="HomePage">
+    <div class="card" onclick="showpatientdetails()">👶 Children</div>
+    <div class="card" onclick="showpatientdetails()">🧑 Adult</div>
+    <div class="card" onclick="showpatientdetails()">👴 Old Age</div>
+    <div class="navigation2">
+    <button class="backk" onclick="back()">⬅️Back</button>
+    <button class="backk" onclick="showpatientdetails()">Next➡️</button>
+    </div>
+    </div>
+    <div class="patientform">
+        <h1>Patent details</h1>
+        <input type="text" placeholder="name"><br>
+        <input type="number" placeholder="age"><br>
+        <input  class="weig"placeholder="weight in (kg)"><br>
+        <input  class="heig" placeholder="height in (feet)"><br>
+        <button class="bmi" onclick="bmical()"> calculate BMI</button><br>
+        <p class="dmi"></p>
+        <select class="selection">
+            <option>Fever
+            </option>
+            <option>cold</option>
+            <option>Ellergy</option>
+            <option>cough</option>
+        </select><br>
+        <button class="recom" onclick="recommendations()">Get recommendations</button><br>
+        <div class="navigation2">
+        <button class="backk" onclick="back1()">⬅️Back</button>
+        <button class="backk" onclick="recommendations()">Next➡️</button>
+    </div>
+</div>
+        <div class="recompage">
+            <h1>Health Recommendation</h1>
+            <h4>prescription Id : 634231</h4>
+            <div class="hrec" onclick="medicinedetails()">🔽   Medicine</div>
+            <div class="medicine"></div>
+            <div class="hrec" onclick="food()">🔽Food</div>
+            <div class="food"></div>
+            <div class="hrec" onclick="dosage()">🔽   Dosage</div>
+            <div class="dosage"></div>
+            <div class="hrec" onclick="howtouse()">🔽   How to use</div>
+            <div class="howtouse"></div>
+            <div class="hrec" onclick="sideeffects()">🔽   side effects</div>
+            <div class="sideeffects"></div>
+            <button class="alarm" onclick="alarm()">⏰set medicine alarm</button>
+            <button class="download" onclick="downloadpresc()">Download Prescription</button>
+            <div class="navigation2">
+                <button class="backk" onclick="back2()">⬅️Back</button>
+                <button class="backk" onclick="doctorconsult()">Next➡️</button>
+            </div>
+</div>
+<div class="doctorconsult">
+    <h1 class="specialist">consult specialist</h1>
+    <div class="doctor1">
+    <img src="doc.avif" width="200" height="200">
+    <h1 class="doc">Suresh</h1>
+    <h2 class="doc">chemist</h2>
+    <button class="book">Book appointment</button>
+</div>
+<div class="doctor2">
+    <img src="doc.avif" width="200" height="200">
+    <h1 class="doc">Lalitha</h1>
+    <h2 class="doc">physist</h2>
+    <button class="book">Book appointment</button>
+</div>
+</div>
+    <script src="selfp.js"></script>    
+    </body>
+</html>
